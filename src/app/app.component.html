@@ -41,12 +41,12 @@
       </nav>
   </aside>
   <main class="content">
-      <section>
-          <h1>Fichas curriculares</h1>
-          <!-- Llamada al componente de fichas curriculares-->
-          <app-fichas></app-fichas>
+    <section>
 
-      </section>
+      <h1>Fichas curriculares | {{  fechaHoy | date:'yyyy/mm/dd' }}</h1>
+      <p  appResaltado>Personal de la Institución</p>
+      <app-fichas></app-fichas>
+    </section>
   </main>
 </div>
 <footer>
